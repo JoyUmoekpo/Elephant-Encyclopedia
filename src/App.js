@@ -13,7 +13,11 @@ const App = () => {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<HomePage />
+				<HomePage
+					greeting={content[0].greeting}
+					explanation={content[0].explanation}
+					message={content[0].message}
+				/>
 			</header>
 		</div>
 	);
