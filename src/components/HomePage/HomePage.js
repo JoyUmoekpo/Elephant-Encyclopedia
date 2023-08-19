@@ -2,11 +2,11 @@ import React from "react";
 import "./HomePage.css";
 import elephantCover from "../../assets/elephant--homepage-cover.jpg";
 
-const HomePage = () => {
+const HomePage = (props) => {
 	return (
 		<div>
-			{" "}
-			<img src={elephantCover} alt="Homepage Cover" className="cover" />{" "}
+			<img src={elephantCover} alt="Homepage Cover" className="cover" />
+			<h1>{props.greeting}!</h1>
 		</div>
 	);
 };
