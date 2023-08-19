@@ -4,8 +4,9 @@ import HomePage from "./components/HomePage/HomePage";
 const App = () => {
 	const content = [
 		{
-			greeting: "Hello everyone",
-			explanation: "This is my application, Elephant Encyclopedia!",
+			greeting: "Hello everyone!",
+			explanation:
+				"This is my application, Elephant Encyclopedia! Here you can fins all kinds of information about different kinds of elephants and their habits.",
 			message: "Elephants🐘!",
 		},
 	];
