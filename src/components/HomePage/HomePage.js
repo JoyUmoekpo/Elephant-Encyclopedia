@@ -7,6 +7,7 @@ const HomePage = (props) => {
 		<div>
 			<img src={elephantCover} alt="Homepage Cover" className="cover" />
 			<h1>{props.greeting}!</h1>
+			<h2>{props.explanation}</h2>
 		</div>
 	);
 };
