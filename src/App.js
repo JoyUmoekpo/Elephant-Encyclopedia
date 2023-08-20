@@ -7,7 +7,7 @@ const App = () => {
 			greeting: "Hello everyone!",
 			explanation:
 				"This is my application, Elephant Encyclopedia! Here you can fins all kinds of information about different kinds of elephants and their habits.",
-			message: "Elephants🐘!",
+			// message: "Elephants🐘!"
 		},
 	];
 
@@ -17,7 +17,7 @@ const App = () => {
 				<HomePage
 					greeting={content[0].greeting}
 					explanation={content[0].explanation}
-					message={content[0].message}
+					// message={content[0].message}
 				/>
 			</header>
 		</div>
