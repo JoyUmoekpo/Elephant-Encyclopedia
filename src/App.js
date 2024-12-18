@@ -7,7 +7,7 @@ const App = () => {
 			greeting: "Hello everyone!",
 			explanation:
 				"This is my application, Elephant Encyclopedia! Here you can find all kinds of information about elephants and their habits.",
-			message: "Elephants🐘🐘🐘",
+			message: "Elephants🐘🐘🐘 joyful",
 		},
 	];
 
